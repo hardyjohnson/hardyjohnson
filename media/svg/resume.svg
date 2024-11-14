@@ -1,0 +1,223 @@
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns:xh="http://www.w3.org/1999/xhtml">
+            <style>
+                .card{
+                    padding: 2em;
+                    background-image: linear-gradient(135deg, black, #251132, darkslateblue);
+                    border-radius: 10px;
+                    position: relative;
+                    color: white;
+                    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                    font-size: 1.1em;
+                    line-height: 1.5em;
+
+                    & h2 {
+                    font-size: 1.5em;
+                    margin: 0;
+                    }
+
+                    & h3 {
+                    color: #d39bff;
+                    font-size: 1.1em;
+                    }
+
+                    & p {
+                    margin: 0.75rem 0 0;
+                    }
+
+                    & a {
+                    color: #EF4436;
+                    text-decoration: none;
+
+                    }
+                }
+
+                :where(.gridcontainer ol, .gridcontainer ul) {
+                    margin-inline-start: 0;
+                    padding-inline-start: 30px;
+                }
+
+                @property --angle{
+                    syntax: "<angle>";
+                    initial-value: 0deg;
+                    inherits: false;
+                }
+
+                .card::after, .card::before{
+                    content: '';
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    background-image: conic-gradient(from var(--angle), #EF4436, darkslateblue, #251132, darkslateblue, #EF4436);
+                    top: 50%;
+                    left: 50%;
+                    translate: -50% -50%;
+                    z-index: -1;
+                    padding: 3px;
+                    border-radius: 10px;
+                    animation: 5s spin linear 1;
+                }
+
+                .card::before{
+                    filter: blur(1.2rem);
+                    opacity: 0.60;
+                }
+
+                @keyframes spin{
+                    from{
+                        --angle: 0deg;
+                    }
+                    to{
+                        --angle: 360deg;
+                    }
+                }
+
+                .gridcontainer {
+                    background-color: #1c1e25;
+                    display: grid;
+                    grid-gap: 1.5rem;
+                    padding-block: 2rem;
+                    width: min(90%, 70rem);
+                    margin-inline: auto;
+                }
+
+                @media (min-width: 50em) {
+                    .grid-span-2 {
+                        grid-column: span 2;
+                    }
+
+                    .gridcontainer {
+                        grid-template-columns: repeat(3, 1fr);
+                    }
+                }
+
+                .card:nth-child(5) {
+                    grid-row: span 2;
+                }
+
+                li, ol {
+                    line-height: 1.4em;
+                    padding-bottom: .5em;
+                }
+
+                .area-skills p {
+                    padding-left: 1em;
+                }
+            </style>
+            <div class="gridcontainer">
+                <div class="card area-hello grid-span-2">
+                    <h1>👋&nbsp;&nbsp;Hello Friends</h1>
+                    <p>
+                        My name is Hardy Johnson, I am a long time web, software and infrastructure developer. My interest in the web has always
+                        been as a democratizing force which lowers the barrier of entry to the world of publishing for billions of people. Little
+                        did anyone know what a broad and deep application platform / ecosystem it would become.
+                    </p>
+                    <p>
+                        Over the years I have been lucky to make to work with many amazing software developers and companies building innovative
+                        products and services across a wide spectrum of industries including performance marketing, content marketing,
+                        e-commerce, health, financial services, short term rentals and software as a service.
+                    </p>
+                    <p>
+                        My wife, big trees, bigger mountains, wild rivers and an untamed coast dotted with breweries and gastronomic pleasures brought me to
+                        Portland, Oregon. You can find me enjoying music in and around the Pacific Northwest, downhill skiing on Mt. Hood and
+                        enjoying beers that are hoppier than reason would dictate. I also love traveling and spending time with my family and furry friends (dogs).
+                    </p>
+                </div>
+                <div class="card area-contact">
+                    <h2>Contact</h2>
+                    <p>
+                        If you are looking for an engineering leader who is ready put in the hard work to help you solve an impactful business issue
+                        or are looking for help creating a business solution, please <a href="https://hypertext.tools/contact" aria-label="contact me">contact me</a> via email, phone or website.
+                    </p>
+                    <p>
+                        I also provide business solution development, cloud architecture &amp; talent augmentation, feel free reach out to me at my consulting company <a href="https://hypertext.tools/">HyperText Tools</a>.
+                    </p>
+                    <p>
+                        I am currently open to consulting and full time employment. For references or more information regarding my CV please see my LinkedIn page: <a href="https://linkedin.com/in/hardyjohnson">Hardy Johnson</a>.
+                    </p>
+                </div>
+
+                <div class="card area-companies">
+                    <h2>Companies</h2>
+                    <ul>
+                        <li><a href="https://hypertext.tools">HyperText Tools</a><br />Founder and President</li>
+                        <li><a href="https://www.marbellalane.com/">Marbella Lane</a><br />CTO</li>
+                        <li><a href="https://www.visionet.com/">Visionet</a><br />E-commerce Architect</li>
+                        <li>Copious<br />Technical Lead</li>
+                        <li><a href="https://www.quinstreet.com/">QuinStreet</a><br />Director of Engineering</li>
+                        <li>CaptiVision Media<br />Co-founder, CTO</li>
+                        <li>EdeNET Communications - The @Hospital Network<br />Software engineer</li>
+                    </ul>
+                </div>
+
+                <div class="card area-customers">
+                    <h2>Customers &amp; Partners</h2>
+                    <ul>
+                        <li><a href="https://abovethefray.io/">Above the Fray</a></li>
+                        <li><a href="https://www.emergeagency.com/">Emerge Technologies</a></li>
+                        <li><a href="https://www.locusinteractive.net/">Locus Interactive</a></li>
+                        <li><a href="https://lpb-law.com/">Lufkin Peckham LLP</a></li>
+                        <li><a href="https://www.thebestgiftbaskets.com/">The Best Gift Baskets</a></li>
+                    </ul>
+                </div>
+
+                <div class="card area-skills">
+                    <h2>Skills</h2>
+                    <h3>Cloud architecture</h3>
+                    <p>Data modeling, service identification, network, application and data documentation and diagramming, data flows, cost estimation and analysis.</p>
+                    <h3>E-commerce</h3>
+                    <p>Application programming, configuration, extension and API integrations. Payment processing, catalog ingestion, holistic performance review and security audits.</p>
+                    <h3>Web Development</h3>
+                    <p>HTML5, CSS, JavaScript / TypeScript</p>
+                    <h3>Software</h3>
+                    <p>Polyglot programming based on current software environment and application requirements.</p>
+                    <h3>Languages</h3>
+                    <p>Bash, C#, JAVA, JavaScript, PHP, Python, Ruby, TypeScript.</p>
+                    <h3>Frameworks</h3>
+                    <p>Astro, NextJS, GatbsyJS, CodeIgniter, Laravel, Symphony, Ruby on Rails, Adobe Commerce / Magento 1 &amp;amp; 2, Wordpress</p>
+                    <h3>Dev / Ops</h3>
+                    <p>Containerization, Infrastructure as Code, CI / CD, Testing, Deployment, Secrets Management, Monitoring</p>
+                    <p>Bash, Docker, Chef, Terraform</p>
+                    <h3>Security</h3>
+                    <p>PCI, code scanning, static analysis, auditing, PKI, TLS, OWASP rulesets, server hardening</p>
+                    <h3>Foundational</h3>
+                    <p>Clear communication, planning, continuous learning, empathy.</p>
+                </div>
+
+                <div class="card area-community">
+                    <h2>Community, Conferences &amp; Events</h2>
+                    <ul>
+                        <li>Open Source Bridge 2016</li>
+                        <li>Cascadia PHP 2019</li>
+                        <li><a href="https://www.cascadiaphp.com/">Cascadia PHP 2024</a></li>
+                    </ul>
+                </div>
+                <div class="card area-opensource-projects">
+                    <h2>Open Source Projects</h2>
+                    <ul>
+                        <li><a href="https://github.com/cascadia-cookbooks">Cascadia Cookbooks</a></li>
+                    </ul>
+                    <h2>Open Source Contributions</h2>
+                    <p>Below are some of the open source projects I have made code contributions to.</p>
+                    <ul>
+                        <li><a href="https://github.com/brefphp/bref">Bref PHP</a></li>
+                        <li><a href="https://github.com/cascadia-cookbooks">Cascadia Cookbooks</a></li>
+                        <li><a href="https://github.com/deployphp/deployer">Deployer</a></li>
+                        <li><a href="https://github.com/ezimuel/PHP-Secure-Session">PHP Secure Session</a></li>
+                        <li><a href="https://github.com/magento/devdocs">Magento Dev Docs</a></li>
+                        <li><a href="https://github.com/gwillem/magento-malware-scanner">Magento Malware Scanner</a></li>
+                        <li><a href="https://github.com/magento/magento2-page-builder">Magento 2 Page Builder</a></li>
+                        <li><a href="https://github.com/mermaid-js/mermaid-live-editor">Mermaid Live Editor</a></li>
+                        <li><a href="https://github.com/netlify/open-api">Netlify Open API</a></li>
+                        <li><a href="https://github.com/netz98/">n98-magerun n98-magerun2</a></li>
+                        <li><a href="https://github.com/php-fig/www.php-fig.org">PHP FIG website</a></li>
+                        <li><a href="https://github.com/wardenenv/warden">Warden</a></li>
+                        <li><a href="https://github.com/wardenenv/warden-env-magento2">Warden Magento 2 Environment</a></li>
+                        <li><a href="https://github.com/yireo/magento2-replace-bundled">Yireo - Magento 2 Replace Bundled</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
