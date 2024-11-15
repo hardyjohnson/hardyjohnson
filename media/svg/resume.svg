@@ -1,7 +1,7 @@
 <xh:svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns:xh="http://www.w3.org/2000/svg">
     <xh:foreignObject width="100%" height="100%">
-        <xh:div xmlns:xh="http://www.w3.org/1999/xhtml">
-            <xh:style>
+        <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml">
+            <xhtml:style>
                 .card{
                     padding: 2em;
                     background-image: linear-gradient(135deg, black, #251132, darkslateblue);
@@ -104,120 +104,120 @@
                 .area-skills p {
                     padding-left: 1em;
                 }
-            </xh:style>
-            <xh:div class="gridcontainer">
-                <xh:div class="card area-hello grid-span-2">
-                    <xh:h1>👋&nbsp;&nbsp;Hello Friends</xh:h1>
-                    <xh:p>
+            </xhtml:style>
+            <xhtml:div class="gridcontainer">
+                <xhtml:div class="card area-hello grid-span-2">
+                    <xhtml:h1>👋&nbsp;&nbsp;Hello Friends</xhtml:h1>
+                    <xhtml:p>
                         My name is Hardy Johnson, I am a long time web, software and infrastructure developer. My interest in the web has always
                         been as a democratizing force which lowers the barrier of entry to the world of publishing for billions of people. Little
                         did anyone know what a broad and deep application platform / ecosystem it would become.
-                    </xh:p>
-                    <xh:p>
+                    </xhtml:p>
+                    <xhtml:p>
                         Over the years I have been lucky to make to work with many amazing software developers and companies building innovative
                         products and services across a wide spectrum of industries including performance marketing, content marketing,
                         e-commerce, health, financial services, short term rentals and software as a service.
-                    </xh:p>
-                    <xh:p>
+                    </xhtml:p>
+                    <xhtml:p>
                         My wife, big trees, bigger mountains, wild rivers and an untamed coast dotted with breweries and gastronomic pleasures brought me to
                         Portland, Oregon. You can find me enjoying music in and around the Pacific Northwest, downhill skiing on Mt. Hood and
                         enjoying beers that are hoppier than reason would dictate. I also love traveling and spending time with my family and furry friends (dogs).
-                    </xh:p>
-                </xh:div>
-                <xh:div class="card area-contact">
-                    <xh:h2>Contact</xh:h2>
-                    <xh:p>
+                    </xhtml:p>
+                </xhtml:div>
+                <xhtml:div class="card area-contact">
+                    <xhtml:h2>Contact</xhtml:h2>
+                    <xhtml:p>
                         If you are looking for an engineering leader who is ready put in the hard work to help you solve an impactful business issue
-                        or are looking for help creating a business solution, please <xh:a href="https://hypertext.tools/contact" aria-label="contact me">contact me</xh:a> via email, phone or website.
-                    </xh:p>
-                    <xh:p>
-                        I also provide business solution development, cloud architecture &amp; talent augmentation, feel free reach out to me at my consulting company <xh:a href="https://hypertext.tools/">HyperText Tools</xh:a>.
-                    </xh:p>
-                    <xh:p>
-                        I am currently open to consulting and full time employment. For references or more information regarding my CV please see my LinkedIn page: <xh:a href="https://linkedin.com/in/hardyjohnson">Hardy Johnson</xh:a>.
-                    </xh:p>
-                </xh:div>
+                        or are looking for help creating a business solution, please <xhtml:a href="https://hypertext.tools/contact" aria-label="contact me">contact me</xhtml:a> via email, phone or website.
+                    </xhtml:p>
+                    <xhtml:p>
+                        I also provide business solution development, cloud architecture &amp; talent augmentation, feel free reach out to me at my consulting company <xhtml:a href="https://hypertext.tools/">HyperText Tools</xhtml:a>.
+                    </xhtml:p>
+                    <xhtml:p>
+                        I am currently open to consulting and full time employment. For references or more information regarding my CV please see my LinkedIn page: <xhtml:a href="https://linkedin.com/in/hardyjohnson">Hardy Johnson</xhtml:a>.
+                    </xhtml:p>
+                </xhtml:div>
 
-                <xh:div class="card area-companies">
-                    <xh:h2>Companies</xh:h2>
-                    <xh:ul>
-                        <xh:li><xh:a href="https://hypertext.tools">HyperText Tools</xh:a><xh:br />Founder and President</xh:li>
-                        <xh:li><xh:a href="https://www.marbellalane.com/">Marbella Lane</xh:a><xh:br />CTO</xh:li>
-                        <xh:li><xh:a href="https://www.visionet.com/">Visionet</xh:a><xh:br />E-commerce Architect</xh:li>
-                        <xh:li>Copious<xh:br />Technical Lead</xh:li>
-                        <xh:li><xh:a href="https://www.quinstreet.com/">QuinStreet</xh:a><xh:br />Director of Engineering</xh:li>
-                        <xh:li>CaptiVision Media<xh:br />Co-founder, CTO</xh:li>
-                        <xh:li>EdeNET Communications - The @Hospital Network<xh:br />Software engineer</xh:li>
-                    </xh:ul>
-                </xh:div>
+                <xhtml:div class="card area-companies">
+                    <xhtml:h2>Companies</xhtml:h2>
+                    <xhtml:ul>
+                        <xhtml:li><xhtml:a href="https://hypertext.tools">HyperText Tools</xhtml:a><xhtml:br />Founder and President</xhtml:li>
+                        <xhtml:li><xhtml:a href="https://www.marbellalane.com/">Marbella Lane</xhtml:a><xhtml:br />CTO</xhtml:li>
+                        <xhtml:li><xhtml:a href="https://www.visionet.com/">Visionet</xhtml:a><xhtml:br />E-commerce Architect</xhtml:li>
+                        <xhtml:li>Copious<xhtml:br />Technical Lead</xhtml:li>
+                        <xhtml:li><xhtml:a href="https://www.quinstreet.com/">QuinStreet</xhtml:a><xhtml:br />Director of Engineering</xhtml:li>
+                        <xhtml:li>CaptiVision Media<xhtml:br />Co-founder, CTO</xhtml:li>
+                        <xhtml:li>EdeNET Communications - The @Hospital Network<xhtml:br />Software engineer</xhtml:li>
+                    </xhtml:ul>
+                </xhtml:div>
 
-                <xh:div class="card area-customers">
-                    <xh:h2>Customers &amp; Partners</xh:h2>
-                    <xh:ul>
-                        <xh:li><xh:a href="https://abovethefray.io/">Above the Fray</xh:a></xh:li>
-                        <xh:li><xh:a href="https://www.emergeagency.com/">Emerge Technologies</xh:a></xh:li>
-                        <xh:li><xh:a href="https://www.locusinteractive.net/">Locus Interactive</xh:a></xh:li>
-                        <xh:li><xh:a href="https://lpb-law.com/">Lufkin Peckham LLP</xh:a></xh:li>
-                        <xh:li><xh:a href="https://www.thebestgiftbaskets.com/">The Best Gift Baskets</xh:a></xh:li>
-                    </xh:ul>
-                </xh:div>
+                <xhtml:div class="card area-customers">
+                    <xhtml:h2>Customers &amp; Partners</xhtml:h2>
+                    <xhtml:ul>
+                        <xhtml:li><xhtml:a href="https://abovethefray.io/">Above the Fray</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://www.emergeagency.com/">Emerge Technologies</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://www.locusinteractive.net/">Locus Interactive</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://lpb-law.com/">Lufkin Peckham LLP</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://www.thebestgiftbaskets.com/">The Best Gift Baskets</xhtml:a></xhtml:li>
+                    </xhtml:ul>
+                </xhtml:div>
 
-                <xh:div class="card area-skills">
-                    <xh:h2>Skills</xh:h2>
-                    <xh:h3>Cloud architecture</xh:h3>
-                    <xh:p>Data modeling, service identification, network, application and data documentation and diagramming, data flows, cost estimation and analysis.</xh:p>
-                    <xh:h3>E-commerce</xh:h3>
-                    <xh:p>Application programming, configuration, extension and API integrations. Payment processing, catalog ingestion, holistic performance review and security audits.</xh:p>
-                    <xh:h3>Web Development</xh:h3>
-                    <xh:p>HTML5, CSS, JavaScript / TypeScript</xh:p>
-                    <xh:h3>Software</xh:h3>
-                    <xh:p>Polyglot programming based on current software environment and application requirements.</xh:p>
-                    <xh:h3>Languages</xh:h3>
-                    <xh:p>Bash, C#, JAVA, JavaScript, PHP, Python, Ruby, TypeScript.</xh:p>
-                    <xh:h3>Frameworks</xh:h3>
-                    <xh:p>Astro, NextJS, GatbsyJS, CodeIgniter, Laravel, Symphony, Ruby on Rails, Adobe Commerce / Magento 1 &amp;amp; 2, Wordpress</xh:p>
-                    <xh:h3>Dev / Ops</xh:h3>
-                    <xh:p>Containerization, Infrastructure as Code, CI / CD, Testing, Deployment, Secrets Management, Monitoring</xh:p>
-                    <xh:p>Bash, Docker, Chef, Terraform</xh:p>
-                    <xh:h3>Security</xh:h3>
-                    <xh:p>PCI, code scanning, static analysis, auditing, PKI, TLS, OWASP rulesets, server hardening</xh:p>
-                    <xh:h3>Foundational</xh:h3>
-                    <xh:p>Clear communication, planning, continuous learning, empathy.</xh:p>
-                </xh:div>
+                <xhtml:div class="card area-skills">
+                    <xhtml:h2>Skills</xhtml:h2>
+                    <xhtml:h3>Cloud architecture</xhtml:h3>
+                    <xhtml:p>Data modeling, service identification, network, application and data documentation and diagramming, data flows, cost estimation and analysis.</xhtml:p>
+                    <xhtml:h3>E-commerce</xhtml:h3>
+                    <xhtml:p>Application programming, configuration, extension and API integrations. Payment processing, catalog ingestion, holistic performance review and security audits.</xhtml:p>
+                    <xhtml:h3>Web Development</xhtml:h3>
+                    <xhtml:p>HTML5, CSS, JavaScript / TypeScript</xhtml:p>
+                    <xhtml:h3>Software</xhtml:h3>
+                    <xhtml:p>Polyglot programming based on current software environment and application requirements.</xhtml:p>
+                    <xhtml:h3>Languages</xhtml:h3>
+                    <xhtml:p>Bash, C#, JAVA, JavaScript, PHP, Python, Ruby, TypeScript.</xhtml:p>
+                    <xhtml:h3>Frameworks</xhtml:h3>
+                    <xhtml:p>Astro, NextJS, GatbsyJS, CodeIgniter, Laravel, Symphony, Ruby on Rails, Adobe Commerce / Magento 1 &amp;amp; 2, Wordpress</xhtml:p>
+                    <xhtml:h3>Dev / Ops</xhtml:h3>
+                    <xhtml:p>Containerization, Infrastructure as Code, CI / CD, Testing, Deployment, Secrets Management, Monitoring</xhtml:p>
+                    <xhtml:p>Bash, Docker, Chef, Terraform</xhtml:p>
+                    <xhtml:h3>Security</xhtml:h3>
+                    <xhtml:p>PCI, code scanning, static analysis, auditing, PKI, TLS, OWASP rulesets, server hardening</xhtml:p>
+                    <xhtml:h3>Foundational</xhtml:h3>
+                    <xhtml:p>Clear communication, planning, continuous learning, empathy.</xhtml:p>
+                </xhtml:div>
 
-                <xh:div class="card area-community">
-                    <xh:h2>Community, Conferences &amp; Events</xh:h2>
-                    <xh:ul>
-                        <xh:li>Open Source Bridge 2016</xh:li>
-                        <xh:li>Cascadia PHP 2019</xh:li>
-                        <xh:li><xh:a href="https://www.cascadiaphp.com/">Cascadia PHP 2024</xh:a></xh:li>
-                    </xh:ul>
-                </xh:div>
-                <xh:div class="card area-opensource-projects">
-                    <xh:h2>Open Source Projects</xh:h2>
-                    <xh:ul>
-                        <xh:li><xh:a href="https://github.com/cascadia-cookbooks">Cascadia Cookbooks</xh:a></xh:li>
-                    </xh:ul>
-                    <xh:h2>Open Source Contributions</xh:h2>
-                    <xh:p>Below are some of the open source projects I have made code contributions to.</xh:p>
-                    <xh:ul>
-                        <xh:li><xh:a href="https://github.com/brefphp/bref">Bref PHP</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/cascadia-cookbooks">Cascadia Cookbooks</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/deployphp/deployer">Deployer</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/ezimuel/PHP-Secure-Session">PHP Secure Session</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/magento/devdocs">Magento Dev Docs</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/gwillem/magento-malware-scanner">Magento Malware Scanner</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/magento/magento2-page-builder">Magento 2 Page Builder</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/mermaid-js/mermaid-live-editor">Mermaid Live Editor</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/netlify/open-api">Netlify Open API</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/netz98/">n98-magerun n98-magerun2</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/php-fig/www.php-fig.org">PHP FIG website</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/wardenenv/warden">Warden</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/wardenenv/warden-env-magento2">Warden Magento 2 Environment</xh:a></xh:li>
-                        <xh:li><xh:a href="https://github.com/yireo/magento2-replace-bundled">Yireo - Magento 2 Replace Bundled</xh:a></xh:li>
-                    </xh:ul>
-                </xh:div>
-            </xh:div>
-        </xh:div>
+                <xhtml:div class="card area-community">
+                    <xhtml:h2>Community, Conferences &amp; Events</xhtml:h2>
+                    <xhtml:ul>
+                        <xhtml:li>Open Source Bridge 2016</xhtml:li>
+                        <xhtml:li>Cascadia PHP 2019</xhtml:li>
+                        <xhtml:li><xhtml:a href="https://www.cascadiaphp.com/">Cascadia PHP 2024</xhtml:a></xhtml:li>
+                    </xhtml:ul>
+                </xhtml:div>
+                <xhtml:div class="card area-opensource-projects">
+                    <xhtml:h2>Open Source Projects</xhtml:h2>
+                    <xhtml:ul>
+                        <xhtml:li><xhtml:a href="https://github.com/cascadia-cookbooks">Cascadia Cookbooks</xhtml:a></xhtml:li>
+                    </xhtml:ul>
+                    <xhtml:h2>Open Source Contributions</xhtml:h2>
+                    <xhtml:p>Below are some of the open source projects I have made code contributions to.</xhtml:p>
+                    <xhtml:ul>
+                        <xhtml:li><xhtml:a href="https://github.com/brefphp/bref">Bref PHP</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/cascadia-cookbooks">Cascadia Cookbooks</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/deployphp/deployer">Deployer</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/ezimuel/PHP-Secure-Session">PHP Secure Session</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/magento/devdocs">Magento Dev Docs</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/gwillem/magento-malware-scanner">Magento Malware Scanner</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/magento/magento2-page-builder">Magento 2 Page Builder</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/mermaid-js/mermaid-live-editor">Mermaid Live Editor</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/netlify/open-api">Netlify Open API</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/netz98/">n98-magerun n98-magerun2</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/php-fig/www.php-fig.org">PHP FIG website</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/wardenenv/warden">Warden</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/wardenenv/warden-env-magento2">Warden Magento 2 Environment</xhtml:a></xhtml:li>
+                        <xhtml:li><xhtml:a href="https://github.com/yireo/magento2-replace-bundled">Yireo - Magento 2 Replace Bundled</xhtml:a></xhtml:li>
+                    </xhtml:ul>
+                </xhtml:div>
+            </xhtml:div>
+        </xhtml:div>
     </xh:foreignObject>
 </xh:svg>
