@@ -1,6 +1,6 @@
 <svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
-        <div xmlns:xh="http://www.w3.org/1999/xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 .card{
                     padding: 2em;
@@ -39,7 +39,7 @@
                 }
 
                 @property --angle{
-                    syntax: "<angle>";
+                    syntax: "&lt;angle &gt;";
                     initial-value: 0deg;
                     inherits: false;
                 }
@@ -105,7 +105,7 @@
                     padding-left: 1em;
                 }
             </style>
-            <div class="gridcontainer">
+            <div class="gridcontainer" xmlns="http://www.w3.org/1999/xhtml">
                 <div class="card area-hello grid-span-2">
                     <h1>👋&nbsp;&nbsp;Hello Friends</h1>
                     <p>
