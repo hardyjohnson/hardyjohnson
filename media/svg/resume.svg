@@ -1,8 +1,7 @@
 <svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%" requiredExtensions="http://www.w3.org/1999/xhtml">
-
+    <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>
+            <style>
                 .card{
                     padding: 2em;
                     background-image: linear-gradient(135deg, black, #251132, darkslateblue);
@@ -33,49 +32,12 @@
                     text-decoration: none;
                 }
 
-
                 :where(.gridcontainer ol, .gridcontainer ul) {
                     margin-inline-start: 0;
                     padding-inline-start: 30px;
                 }
 
-                @property --angle{
-                    syntax: "&lt;angle &gt;";
-                    initial-value: 0deg;
-                    inherits: false;
-                }
-
-                .card::after, .card::before{
-                    content: '';
-                    position: absolute;
-                    height: 100%;
-                    width: 100%;
-                    background-image: conic-gradient(from var(--angle), #EF4436, darkslateblue, #251132, darkslateblue, #EF4436);
-                    top: 50%;
-                    left: 50%;
-                    translate: -50% -50%;
-                    z-index: -1;
-                    padding: 3px;
-                    border-radius: 10px;
-                    animation: 5s spin linear 1;
-                }
-
-                .card::before{
-                    filter: blur(1.2rem);
-                    opacity: 0.60;
-                }
-
-                @keyframes spin{
-                    from{
-                        --angle: 0deg;
-                    }
-                    to{
-                        --angle: 360deg;
-                    }
-                }
-
                 .gridcontainer {
-                    background-color: #1c1e25;
                     display: grid;
                     grid-gap: 1.5rem;
                     padding-block: 2rem;
@@ -105,7 +67,7 @@
                 .area-skills p {
                     padding-left: 1em;
                 }
-            </p>
+            </style>
             <div class="gridcontainer">
                 <div class="card area-hello grid-span-2">
                     <h1>👋&nbsp;&nbsp;Hello Friends</h1>
@@ -220,6 +182,5 @@
                 </div>
             </div>
         </div>
-
     </foreignObject>
 </svg>
